@@ -10,7 +10,7 @@ import { navLinks } from "./constants";
 function App() {
 
   return (
-    <>
+    <div className="bg-white dark:bg-slate-900 text-black dark:text-white">
       <Navbar />
       <Routes>
         <Route path={navLinks.id} element={<Asosiy />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path={navLinks.id} element={<Boglanish />} />
 
       </Routes>
-    </>
+    </div>
   )
 }
 
